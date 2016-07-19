@@ -39,7 +39,7 @@
     Class gameTypeClassAsClass = gameTypeClass.class;
     for( int i = 0; i < sequenceLength; i++){
         id< GameItemProtocol> gameItem = [[gameTypeClassAsClass alloc] init];
-        NSInteger value = arc4random_uniform( differentValues);
+        NSInteger value = arc4random_uniform( (uint32_t)differentValues);
         GameValue *gameValue = [[GameValue alloc] initUsingValue: @( value)];
         [gameItem setupUsingValue: gameValue];
         gameSequence[ i] = gameItem;
