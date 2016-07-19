@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3A6B071D3E43CD00CD56B3 /* Game+TestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A6B061D3E43CD00CD56B3 /* Game+TestCategory.m */; };
 		3DE393481D3E141A008EBF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393471D3E141A008EBF29 /* main.m */; };
 		3DE3934B1D3E141A008EBF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3934A1D3E141A008EBF29 /* AppDelegate.m */; };
 		3DE3934E1D3E141A008EBF29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3934D1D3E141A008EBF29 /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		3DE393561D3E141A008EBF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE393541D3E141A008EBF29 /* LaunchScreen.storyboard */; };
 		3DE393611D3E141B008EBF29 /* visual_memoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393601D3E141B008EBF29 /* visual_memoryTests.m */; };
 		3DE3936C1D3E141B008EBF29 /* visual_memoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3936B1D3E141B008EBF29 /* visual_memoryUITests.m */; };
+		3DE3938F1D3E22F7008EBF29 /* GameItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3938E1D3E22F7008EBF29 /* GameItem.m */; };
+		3DE393901D3E22F7008EBF29 /* GameItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3938E1D3E22F7008EBF29 /* GameItem.m */; };
+		3DE393931D3E230B008EBF29 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393921D3E230B008EBF29 /* Game.m */; };
+		3DE393941D3E230B008EBF29 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393921D3E230B008EBF29 /* Game.m */; };
+		3DE3939A1D3E3472008EBF29 /* GameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393991D3E3472008EBF29 /* GameValue.m */; };
+		3DE3939B1D3E3472008EBF29 /* GameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393991D3E3472008EBF29 /* GameValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3A6B051D3E43CD00CD56B3 /* Game+TestCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Game+TestCategory.h"; sourceTree = "<group>"; };
+		3D3A6B061D3E43CD00CD56B3 /* Game+TestCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Game+TestCategory.m"; sourceTree = "<group>"; };
 		3DE393431D3E141A008EBF29 /* visual-memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "visual-memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE393471D3E141A008EBF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DE393491D3E141A008EBF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,14 @@
 		3DE393671D3E141B008EBF29 /* visual-memoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "visual-memoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE3936B1D3E141B008EBF29 /* visual_memoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = visual_memoryUITests.m; sourceTree = "<group>"; };
 		3DE3936D1D3E141B008EBF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE393891D3E20EA008EBF29 /* GameValueProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameValueProtocol.h; sourceTree = "<group>"; };
+		3DE3938D1D3E22F7008EBF29 /* GameItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameItem.h; sourceTree = "<group>"; };
+		3DE3938E1D3E22F7008EBF29 /* GameItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameItem.m; sourceTree = "<group>"; };
+		3DE393911D3E230B008EBF29 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3DE393921D3E230B008EBF29 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		3DE393961D3E320C008EBF29 /* GameItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameItemProtocol.h; sourceTree = "<group>"; };
+		3DE393981D3E3472008EBF29 /* GameValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameValue.h; sourceTree = "<group>"; };
+		3DE393991D3E3472008EBF29 /* GameValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameValue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3A6B041D3E43B100CD56B3 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A6B051D3E43CD00CD56B3 /* Game+TestCategory.h */,
+				3D3A6B061D3E43CD00CD56B3 /* Game+TestCategory.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 		3DE3933A1D3E141A008EBF29 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +127,8 @@
 		3DE393451D3E141A008EBF29 /* visual-memory */ = {
 			isa = PBXGroup;
 			children = (
+				3DE3938A1D3E22F7008EBF29 /* model */,
+				3DE393871D3E20BC008EBF29 /* protocol */,
 				3DE393491D3E141A008EBF29 /* AppDelegate.h */,
 				3DE3934A1D3E141A008EBF29 /* AppDelegate.m */,
 				3DE3934C1D3E141A008EBF29 /* ViewController.h */,
@@ -125,6 +153,7 @@
 		3DE3935F1D3E141B008EBF29 /* visual-memoryTests */ = {
 			isa = PBXGroup;
 			children = (
+				3D3A6B041D3E43B100CD56B3 /* category */,
 				3DE393601D3E141B008EBF29 /* visual_memoryTests.m */,
 				3DE393621D3E141B008EBF29 /* Info.plist */,
 			);
@@ -138,6 +167,68 @@
 				3DE3936D1D3E141B008EBF29 /* Info.plist */,
 			);
 			path = "visual-memoryUITests";
+			sourceTree = "<group>";
+		};
+		3DE393871D3E20BC008EBF29 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3DE393951D3E31F7008EBF29 /* game-item */,
+				3DE393881D3E20CA008EBF29 /* game-value */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		3DE393881D3E20CA008EBF29 /* game-value */ = {
+			isa = PBXGroup;
+			children = (
+				3DE393891D3E20EA008EBF29 /* GameValueProtocol.h */,
+			);
+			path = "game-value";
+			sourceTree = "<group>";
+		};
+		3DE3938A1D3E22F7008EBF29 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3DE393971D3E3467008EBF29 /* game-value */,
+				3DE3938B1D3E22F7008EBF29 /* game */,
+				3DE3938C1D3E22F7008EBF29 /* game-item */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3DE3938B1D3E22F7008EBF29 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				3DE393911D3E230B008EBF29 /* Game.h */,
+				3DE393921D3E230B008EBF29 /* Game.m */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		3DE3938C1D3E22F7008EBF29 /* game-item */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3938D1D3E22F7008EBF29 /* GameItem.h */,
+				3DE3938E1D3E22F7008EBF29 /* GameItem.m */,
+			);
+			path = "game-item";
+			sourceTree = "<group>";
+		};
+		3DE393951D3E31F7008EBF29 /* game-item */ = {
+			isa = PBXGroup;
+			children = (
+				3DE393961D3E320C008EBF29 /* GameItemProtocol.h */,
+			);
+			path = "game-item";
+			sourceTree = "<group>";
+		};
+		3DE393971D3E3467008EBF29 /* game-value */ = {
+			isa = PBXGroup;
+			children = (
+				3DE393981D3E3472008EBF29 /* GameValue.h */,
+				3DE393991D3E3472008EBF29 /* GameValue.m */,
+			);
+			path = "game-value";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE393931D3E230B008EBF29 /* Game.m in Sources */,
+				3DE3939A1D3E3472008EBF29 /* GameValue.m in Sources */,
 				3DE3934E1D3E141A008EBF29 /* ViewController.m in Sources */,
+				3DE3938F1D3E22F7008EBF29 /* GameItem.m in Sources */,
 				3DE3934B1D3E141A008EBF29 /* AppDelegate.m in Sources */,
 				3DE393481D3E141A008EBF29 /* main.m in Sources */,
 			);
@@ -280,6 +374,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE393941D3E230B008EBF29 /* Game.m in Sources */,
+				3DE3939B1D3E3472008EBF29 /* GameValue.m in Sources */,
+				3D3A6B071D3E43CD00CD56B3 /* Game+TestCategory.m in Sources */,
+				3DE393901D3E22F7008EBF29 /* GameItem.m in Sources */,
 				3DE393611D3E141B008EBF29 /* visual_memoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +596,7 @@
 				3DE393721D3E141B008EBF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DE393731D3E141B008EBF29 /* Build configuration list for PBXNativeTarget "visual-memoryTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +605,7 @@
 				3DE393751D3E141B008EBF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DE393761D3E141B008EBF29 /* Build configuration list for PBXNativeTarget "visual-memoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +614,7 @@
 				3DE393781D3E141B008EBF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
