@@ -10,4 +10,9 @@
 
 @protocol GameCardProtocol <NSObject>
 
+/**
+ do whatever needed to make the card played ( eg. blink, sound...)
+ */
+-( void)playCard;
+
 @end
