@@ -10,7 +10,6 @@
 		3D3A6B071D3E43CD00CD56B3 /* Game+TestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A6B061D3E43CD00CD56B3 /* Game+TestCategory.m */; };
 		3DE393481D3E141A008EBF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393471D3E141A008EBF29 /* main.m */; };
 		3DE3934B1D3E141A008EBF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3934A1D3E141A008EBF29 /* AppDelegate.m */; };
-		3DE3934E1D3E141A008EBF29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3934D1D3E141A008EBF29 /* ViewController.m */; };
 		3DE393511D3E141A008EBF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3934F1D3E141A008EBF29 /* Main.storyboard */; };
 		3DE393531D3E141A008EBF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE393521D3E141A008EBF29 /* Assets.xcassets */; };
 		3DE393561D3E141A008EBF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE393541D3E141A008EBF29 /* LaunchScreen.storyboard */; };
@@ -22,6 +21,11 @@
 		3DE393941D3E230B008EBF29 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393921D3E230B008EBF29 /* Game.m */; };
 		3DE3939A1D3E3472008EBF29 /* GameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393991D3E3472008EBF29 /* GameValue.m */; };
 		3DE3939B1D3E3472008EBF29 /* GameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE393991D3E3472008EBF29 /* GameValue.m */; };
+		3DE8DAF61D40D02F00BFD783 /* GameCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8DAF51D40D02F00BFD783 /* GameCardViewController.m */; };
+		3DE8DAF81D40D04100BFD783 /* GameCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE8DAF71D40D04100BFD783 /* GameCardViewController.xib */; };
+		3DE8DAFD1D40D1E600BFD783 /* LayoutUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8DAFC1D40D1E600BFD783 /* LayoutUtil.m */; };
+		3DE8DB021D4101F100BFD783 /* GameFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8DB011D4101F100BFD783 /* GameFieldViewController.m */; };
+		3DE8DB031D4101F100BFD783 /* GameFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8DB011D4101F100BFD783 /* GameFieldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +52,6 @@
 		3DE393471D3E141A008EBF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DE393491D3E141A008EBF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DE3934A1D3E141A008EBF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DE3934C1D3E141A008EBF29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DE3934D1D3E141A008EBF29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DE393501D3E141A008EBF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DE393521D3E141A008EBF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE393551D3E141A008EBF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 		3DE393961D3E320C008EBF29 /* GameItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameItemProtocol.h; sourceTree = "<group>"; };
 		3DE393981D3E3472008EBF29 /* GameValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameValue.h; sourceTree = "<group>"; };
 		3DE393991D3E3472008EBF29 /* GameValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameValue.m; sourceTree = "<group>"; };
+		3DE8DAF41D40D02F00BFD783 /* GameCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCardViewController.h; sourceTree = "<group>"; };
+		3DE8DAF51D40D02F00BFD783 /* GameCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCardViewController.m; sourceTree = "<group>"; };
+		3DE8DAF71D40D04100BFD783 /* GameCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameCardViewController.xib; sourceTree = "<group>"; };
+		3DE8DAFB1D40D1E600BFD783 /* LayoutUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutUtil.h; sourceTree = "<group>"; };
+		3DE8DAFC1D40D1E600BFD783 /* LayoutUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutUtil.m; sourceTree = "<group>"; };
+		3DE8DAFF1D40F95300BFD783 /* GameCardProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCardProtocol.h; sourceTree = "<group>"; };
+		3DE8DB001D4101F100BFD783 /* GameFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFieldViewController.h; sourceTree = "<group>"; };
+		3DE8DB011D4101F100BFD783 /* GameFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFieldViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,12 +137,12 @@
 		3DE393451D3E141A008EBF29 /* visual-memory */ = {
 			isa = PBXGroup;
 			children = (
+				3DE8DAF91D40D1E600BFD783 /* util */,
+				3DE8DAF11D40CCE000BFD783 /* gui */,
 				3DE3938A1D3E22F7008EBF29 /* model */,
 				3DE393871D3E20BC008EBF29 /* protocol */,
 				3DE393491D3E141A008EBF29 /* AppDelegate.h */,
 				3DE3934A1D3E141A008EBF29 /* AppDelegate.m */,
-				3DE3934C1D3E141A008EBF29 /* ViewController.h */,
-				3DE3934D1D3E141A008EBF29 /* ViewController.m */,
 				3DE3934F1D3E141A008EBF29 /* Main.storyboard */,
 				3DE393521D3E141A008EBF29 /* Assets.xcassets */,
 				3DE393541D3E141A008EBF29 /* LaunchScreen.storyboard */,
@@ -172,6 +182,7 @@
 		3DE393871D3E20BC008EBF29 /* protocol */ = {
 			isa = PBXGroup;
 			children = (
+				3DE8DAFE1D40F93F00BFD783 /* game-card */,
 				3DE393951D3E31F7008EBF29 /* game-item */,
 				3DE393881D3E20CA008EBF29 /* game-value */,
 			);
@@ -229,6 +240,59 @@
 				3DE393991D3E3472008EBF29 /* GameValue.m */,
 			);
 			path = "game-value";
+			sourceTree = "<group>";
+		};
+		3DE8DAF11D40CCE000BFD783 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8DAF21D40CCE000BFD783 /* card */,
+				3DE8DAF31D40CCE000BFD783 /* playfield */,
+			);
+			path = gui;
+			sourceTree = "<group>";
+		};
+		3DE8DAF21D40CCE000BFD783 /* card */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8DAF41D40D02F00BFD783 /* GameCardViewController.h */,
+				3DE8DAF51D40D02F00BFD783 /* GameCardViewController.m */,
+				3DE8DAF71D40D04100BFD783 /* GameCardViewController.xib */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		3DE8DAF31D40CCE000BFD783 /* playfield */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8DB001D4101F100BFD783 /* GameFieldViewController.h */,
+				3DE8DB011D4101F100BFD783 /* GameFieldViewController.m */,
+			);
+			path = playfield;
+			sourceTree = "<group>";
+		};
+		3DE8DAF91D40D1E600BFD783 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8DAFA1D40D1E600BFD783 /* layout */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		3DE8DAFA1D40D1E600BFD783 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8DAFB1D40D1E600BFD783 /* LayoutUtil.h */,
+				3DE8DAFC1D40D1E600BFD783 /* LayoutUtil.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		3DE8DAFE1D40F93F00BFD783 /* game-card */ = {
+			isa = PBXGroup;
+			children = (
+				3DE8DAFF1D40F95300BFD783 /* GameCardProtocol.h */,
+			);
+			path = "game-card";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +400,7 @@
 			files = (
 				3DE393561D3E141A008EBF29 /* LaunchScreen.storyboard in Resources */,
 				3DE393531D3E141A008EBF29 /* Assets.xcassets in Resources */,
+				3DE8DAF81D40D04100BFD783 /* GameCardViewController.xib in Resources */,
 				3DE393511D3E141A008EBF29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,8 +428,10 @@
 			files = (
 				3DE393931D3E230B008EBF29 /* Game.m in Sources */,
 				3DE3939A1D3E3472008EBF29 /* GameValue.m in Sources */,
-				3DE3934E1D3E141A008EBF29 /* ViewController.m in Sources */,
+				3DE8DAFD1D40D1E600BFD783 /* LayoutUtil.m in Sources */,
+				3DE8DAF61D40D02F00BFD783 /* GameCardViewController.m in Sources */,
 				3DE3938F1D3E22F7008EBF29 /* GameItem.m in Sources */,
+				3DE8DB021D4101F100BFD783 /* GameFieldViewController.m in Sources */,
 				3DE3934B1D3E141A008EBF29 /* AppDelegate.m in Sources */,
 				3DE393481D3E141A008EBF29 /* main.m in Sources */,
 			);
@@ -377,6 +444,7 @@
 				3DE393941D3E230B008EBF29 /* Game.m in Sources */,
 				3DE3939B1D3E3472008EBF29 /* GameValue.m in Sources */,
 				3D3A6B071D3E43CD00CD56B3 /* Game+TestCategory.m in Sources */,
+				3DE8DB031D4101F100BFD783 /* GameFieldViewController.m in Sources */,
 				3DE393901D3E22F7008EBF29 /* GameItem.m in Sources */,
 				3DE393611D3E141B008EBF29 /* visual_memoryTests.m in Sources */,
 			);
